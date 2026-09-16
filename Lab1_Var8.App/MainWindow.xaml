@@ -1,0 +1,108 @@
+<Window x:Class="Lab1_Var8.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Лабораторная работа 1 — Вариант 8 (RGB ↔ XYZ ↔ HSV)"
+        Height="620" Width="760" MinHeight="600" MinWidth="740">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Border BorderBrush="Black" BorderThickness="1" Width="90" Height="60">
+                <Rectangle x:Name="PreviewRect" Fill="White"/>
+            </Border>
+            <StackPanel Margin="15,0,0,0" VerticalAlignment="Center">
+                <Button x:Name="PaletteButton" Content="Выбрать из палитры..." Width="170" Height="28" Click="PaletteButton_Click"/>
+                <TextBlock x:Name="WarningText" Foreground="DarkRed" Margin="0,8,0,0" TextWrapping="Wrap" Width="480"/>
+            </StackPanel>
+        </StackPanel>
+
+        <GroupBox Grid.Row="1" Header="Настройки" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" Margin="8">
+                <TextBlock Text="Источник света для XYZ:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="IlluminantCombo" Width="130" Margin="8,0,0,0" SelectionChanged="IlluminantCombo_SelectionChanged">
+                    <ComboBoxItem Content="D65 (дневной)" Tag="D65" IsSelected="True"/>
+                    <ComboBoxItem Content="D50 (полиграфия)" Tag="D50"/>
+                    <ComboBoxItem Content="E (эталонный)" Tag="E"/>
+                </ComboBox>
+            </StackPanel>
+        </GroupBox>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Grid.Column="0" Header="RGB" Margin="0,0,6,0">
+                <StackPanel Margin="8">
+                    <TextBlock Text="R (0–255)"/>
+                    <DockPanel>
+                        <TextBox x:Name="RBox" Width="50" DockPanel.Dock="Right" KeyDown="RgbBox_KeyDown" LostFocus="RgbBox_LostFocus"/>
+                        <Slider x:Name="RSlider" Minimum="0" Maximum="255" ValueChanged="RgbSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="G (0–255)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="GBox" Width="50" DockPanel.Dock="Right" KeyDown="RgbBox_KeyDown" LostFocus="RgbBox_LostFocus"/>
+                        <Slider x:Name="GSlider" Minimum="0" Maximum="255" ValueChanged="RgbSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="B (0–255)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="BBox" Width="50" DockPanel.Dock="Right" KeyDown="RgbBox_KeyDown" LostFocus="RgbBox_LostFocus"/>
+                        <Slider x:Name="BSlider" Minimum="0" Maximum="255" ValueChanged="RgbSlider_ValueChanged"/>
+                    </DockPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Column="1" Header="XYZ" Margin="6,0,6,0">
+                <StackPanel Margin="8">
+                    <TextBlock Text="X (0–~100, зависит от источника)"/>
+                    <DockPanel>
+                        <TextBox x:Name="XBox" Width="50" DockPanel.Dock="Right" KeyDown="XyzBox_KeyDown" LostFocus="XyzBox_LostFocus"/>
+                        <Slider x:Name="XSlider" Minimum="0" Maximum="120" ValueChanged="XyzSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="Y (0–100)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="YBox" Width="50" DockPanel.Dock="Right" KeyDown="XyzBox_KeyDown" LostFocus="XyzBox_LostFocus"/>
+                        <Slider x:Name="YSlider" Minimum="0" Maximum="100" ValueChanged="XyzSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="Z (0–~109, зависит от источника)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="ZBox" Width="50" DockPanel.Dock="Right" KeyDown="XyzBox_KeyDown" LostFocus="XyzBox_LostFocus"/>
+                        <Slider x:Name="ZSlider" Minimum="0" Maximum="120" ValueChanged="XyzSlider_ValueChanged"/>
+                    </DockPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Grid.Column="2" Header="HSV" Margin="6,0,0,0">
+                <StackPanel Margin="8">
+                    <TextBlock Text="H (0–360°)"/>
+                    <DockPanel>
+                        <TextBox x:Name="HBox" Width="50" DockPanel.Dock="Right" KeyDown="HsvBox_KeyDown" LostFocus="HsvBox_LostFocus"/>
+                        <Slider x:Name="HSlider" Minimum="0" Maximum="360" ValueChanged="HsvSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="S (0–100%)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="SBox" Width="50" DockPanel.Dock="Right" KeyDown="HsvBox_KeyDown" LostFocus="HsvBox_LostFocus"/>
+                        <Slider x:Name="SSlider" Minimum="0" Maximum="100" ValueChanged="HsvSlider_ValueChanged"/>
+                    </DockPanel>
+
+                    <TextBlock Text="V (0–100%)" Margin="0,10,0,0"/>
+                    <DockPanel>
+                        <TextBox x:Name="VBox" Width="50" DockPanel.Dock="Right" KeyDown="HsvBox_KeyDown" LostFocus="HsvBox_LostFocus"/>
+                        <Slider x:Name="VSlider" Minimum="0" Maximum="100" ValueChanged="HsvSlider_ValueChanged"/>
+                    </DockPanel>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>
