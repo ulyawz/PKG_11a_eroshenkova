@@ -2,17 +2,21 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Лабораторная работа 1 — Вариант 8 (RGB ↔ XYZ ↔ HSV)"
-        Height="620" Width="760" MinHeight="600" MinWidth="740">
+        Height="620" Width="850" MinHeight="600" MinWidth="740">
     <Grid Margin="12">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="697*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
-            <Border BorderBrush="Black" BorderThickness="1" Width="90" Height="60">
-                <Rectangle x:Name="PreviewRect" Fill="White"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10" Grid.ColumnSpan="2">
+            <Border BorderBrush="Black" BorderThickness="1" Width="200" Height="120">
+                <Rectangle x:Name="PreviewRect" Fill="White" Margin="-1,-1,-1,-1"/>
             </Border>
             <StackPanel Margin="15,0,0,0" VerticalAlignment="Center">
                 <Button x:Name="PaletteButton" Content="Выбрать из палитры..." Width="170" Height="28" Click="PaletteButton_Click"/>
@@ -20,7 +24,7 @@
             </StackPanel>
         </StackPanel>
 
-        <GroupBox Grid.Row="1" Header="Настройки" Margin="0,0,0,10">
+        <GroupBox Grid.Row="1" Header="Настройки" Margin="0,0,0,10" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Margin="8">
                 <TextBlock Text="Источник света для XYZ:" VerticalAlignment="Center"/>
                 <ComboBox x:Name="IlluminantCombo" Width="130" Margin="8,0,0,0" SelectionChanged="IlluminantCombo_SelectionChanged">
@@ -31,7 +35,7 @@
             </StackPanel>
         </GroupBox>
 
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="2" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
