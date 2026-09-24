@@ -13,9 +13,7 @@ namespace Lab1_Var8.App
     {
         private readonly MainWindowViewModel _viewModel = new MainWindowViewModel();
 
-        // Флаг нужен, чтобы при программном обновлении слайдеров/текстбоксов
-        // (после ответа от ViewModel) не срабатывали их же обработчики
-        // и не зациклился пересчёт.
+      
         private bool _updating = false;
 
         public MainWindow()
@@ -27,7 +25,6 @@ namespace Lab1_Var8.App
             RefreshDisplay();
         }
 
-        // ================== Отображение текущего состояния ==================
 
         private void RefreshDisplay()
         {
@@ -39,14 +36,14 @@ namespace Lab1_Var8.App
             XSlider.Value = Clamp(_viewModel.X, XSlider.Minimum, XSlider.Maximum);
             YSlider.Value = Clamp(_viewModel.Y, YSlider.Minimum, YSlider.Maximum);
             ZSlider.Value = Clamp(_viewModel.Z, ZSlider.Minimum, ZSlider.Maximum);
-            XBox.Text = _viewModel.X.ToString("F3", CultureInfo.InvariantCulture);
-            YBox.Text = _viewModel.Y.ToString("F3", CultureInfo.InvariantCulture);
-            ZBox.Text = _viewModel.Z.ToString("F3", CultureInfo.InvariantCulture);
+            XBox.Text = _viewModel.X.ToString("F0", CultureInfo.InvariantCulture);
+            YBox.Text = _viewModel.Y.ToString("F0", CultureInfo.InvariantCulture);
+            ZBox.Text = _viewModel.Z.ToString("F0", CultureInfo.InvariantCulture);
 
             HSlider.Value = _viewModel.H; SSlider.Value = _viewModel.S; VSlider.Value = _viewModel.V;
-            HBox.Text = _viewModel.H.ToString("F1", CultureInfo.InvariantCulture);
-            SBox.Text = _viewModel.S.ToString("F1", CultureInfo.InvariantCulture);
-            VBox.Text = _viewModel.V.ToString("F1", CultureInfo.InvariantCulture);
+            HBox.Text = _viewModel.H.ToString("F0", CultureInfo.InvariantCulture);
+            SBox.Text = _viewModel.S.ToString("F0", CultureInfo.InvariantCulture);
+            VBox.Text = _viewModel.V.ToString("F0", CultureInfo.InvariantCulture);
 
             PreviewRect.Fill = new SolidColorBrush(Color.FromRgb(_viewModel.R, _viewModel.G, _viewModel.B));
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B229683-168F-4906-8022-08CFA60FB36F}|Lab1_Var8.App\\Lab1_Var8.App.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B229683-168F-4906-8022-08CFA60FB36F}|Lab1_Var8.App\\Lab1_Var8.App.csproj|solutionrelative:lab1_var8.app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B229683-168F-4906-8022-08CFA60FB36F}|Lab1_Var8.App\\Lab1_Var8.App.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.app\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B229683-168F-4906-8022-08CFA60FB36F}|Lab1_Var8.App\\Lab1_Var8.App.csproj|solutionrelative:lab1_var8.app\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,12 @@
       "RelativeMoniker": "D:0:0:{6B229683-168F-4906-8022-08CFA60FB36F}|Lab1_Var8.App\\Lab1_Var8.App.csproj|solutionrelative:lab1_var8.app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\colormath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\colormath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\colormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\colormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\rgbprimaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\rgbprimaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B44D2D4D-93CE-4AA5-96BD-AD2E27E52680}|Lab1_Var8.Tests\\Lab1_Var8.Tests.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.tests\\colormathtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44D2D4D-93CE-4AA5-96BD-AD2E27E52680}|Lab1_Var8.Tests\\Lab1_Var8.Tests.csproj|solutionrelative:lab1_var8.tests\\colormathtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\colormath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\colormath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\matrixmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\illuminant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\illuminant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\lab1_var8\\lab1_var8.core\\rgbprimaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC6EB4D0-5E51-4399-8A66-0593D2376237}|Lab1_Var8.Core\\Lab1_Var8.Core.csproj|solutionrelative:lab1_var8.core\\rgbprimaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.App\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab1_Var8.App\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.App\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab1_Var8.App\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwC0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:17:26.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.App\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Lab1_Var8.App\\MainWindow.xaml",
@@ -58,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.App\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "Lab1_Var8.App\\MainWindowViewModel.cs",
               "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.App\\MainWindowViewModel.cs",
               "RelativeToolTip": "Lab1_Var8.App\\MainWindowViewModel.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wBMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-17T09:02:47.863Z",
               "EditorCaption": ""
@@ -77,49 +90,53 @@
               "RelativeDocumentMoniker": "Lab1_Var8.Core\\ColorModel.cs",
               "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\ColorModel.cs",
               "RelativeToolTip": "Lab1_Var8.Core\\ColorModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:50:54.44Z"
+              "WhenOpened": "2026-09-17T08:50:54.44Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ColorMath.cs",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\ColorMath.cs",
               "RelativeDocumentMoniker": "Lab1_Var8.Core\\ColorMath.cs",
               "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\ColorMath.cs",
               "RelativeToolTip": "Lab1_Var8.Core\\ColorMath.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAIwH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAIwBgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:25:06.256Z"
+              "WhenOpened": "2026-09-17T08:25:06.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MatrixMath.cs",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\MatrixMath.cs",
               "RelativeDocumentMoniker": "Lab1_Var8.Core\\MatrixMath.cs",
               "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\MatrixMath.cs",
               "RelativeToolTip": "Lab1_Var8.Core\\MatrixMath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:24:42.604Z"
+              "WhenOpened": "2026-09-17T08:24:42.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Illuminant.cs",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\Illuminant.cs",
               "RelativeDocumentMoniker": "Lab1_Var8.Core\\Illuminant.cs",
               "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\Illuminant.cs",
               "RelativeToolTip": "Lab1_Var8.Core\\Illuminant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:24:36.788Z"
+              "WhenOpened": "2026-09-17T08:24:36.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RgbPrimaries.cs",
               "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Core\\RgbPrimaries.cs",
               "RelativeDocumentMoniker": "Lab1_Var8.Core\\RgbPrimaries.cs",
@@ -127,19 +144,8 @@
               "RelativeToolTip": "Lab1_Var8.Core\\RgbPrimaries.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:24:32.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ColorMathTests.cs",
-              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Tests\\ColorMathTests.cs",
-              "RelativeDocumentMoniker": "Lab1_Var8.Tests\\ColorMathTests.cs",
-              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\Lab1_Var8\\Lab1_Var8.Tests\\ColorMathTests.cs",
-              "RelativeToolTip": "Lab1_Var8.Tests\\ColorMathTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T08:24:06.975Z"
+              "WhenOpened": "2026-09-17T08:24:32.626Z",
+              "EditorCaption": ""
             }
           ]
         }
