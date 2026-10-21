@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\sem3\\pkg\\PicInfoViewer\\",
+  "WorkspaceRootPath": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\picinfoviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\picinfoviewer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:picinfoviewer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\picinfoviewer\\imagereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:imagereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\picinfoviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\picinfoviewer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\imagereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:imagereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\picinfoviewer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|e:\\sem3\\pkg\\lab1_var8_v5\\picinfoviewer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DF1A9644-B4C4-9C7D-0EAE-4111358B3F76}|PicInfoViewer.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -30,26 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\sem3\\pkg\\PicInfoViewer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "E:\\sem3\\pkg\\PicInfoViewer\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-15T09:04:43.972Z"
+              "DocumentIndex": 0,
+              "Title": "PicInfoViewer",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\PicInfoViewer.csproj",
+              "RelativeDocumentMoniker": "PicInfoViewer.csproj",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\PicInfoViewer.csproj",
+              "RelativeToolTip": "PicInfoViewer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-21T14:41:59.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-15T09:04:43.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\sem3\\pkg\\PicInfoViewer\\App.xaml.cs",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "E:\\sem3\\pkg\\PicInfoViewer\\App.xaml.cs",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -57,40 +75,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ImageReader.cs",
-              "DocumentMoniker": "E:\\sem3\\pkg\\PicInfoViewer\\ImageReader.cs",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\ImageReader.cs",
               "RelativeDocumentMoniker": "ImageReader.cs",
-              "ToolTip": "E:\\sem3\\pkg\\PicInfoViewer\\ImageReader.cs",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\ImageReader.cs",
               "RelativeToolTip": "ImageReader.cs",
               "ViewState": "AgIAACkBAAAAAAAAAAAAADMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T21:05:06.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T21:05:06.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\sem3\\pkg\\PicInfoViewer\\MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "E:\\sem3\\pkg\\PicInfoViewer\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwJcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAIwJcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T21:06:30.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
-              "DocumentMoniker": "E:\\sem3\\pkg\\PicInfoViewer\\App.xaml",
+              "DocumentMoniker": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "E:\\sem3\\pkg\\PicInfoViewer\\App.xaml",
+              "ToolTip": "E:\\sem3\\pkg\\Lab1_Var8_v5\\PicInfoViewer\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-14T19:15:25.152Z"
+              "WhenOpened": "2026-10-14T19:15:25.152Z",
+              "EditorCaption": ""
             }
           ]
         }
